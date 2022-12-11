@@ -26,7 +26,7 @@ public class Application {
 
     @Transactional
     @PostConstruct
-    public void testCreate() {uu
+    public void testCreate() {
         var car = new Car();
         car.setName("Toyota Corolla");
         log.info("Saving car {}", car);
