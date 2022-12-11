@@ -1,0 +1,11 @@
+persistence:
+  url: jdbc:postgresql://localhost:5432/postgres
+  user: postgres
+  password: postgres
+  driverClass: org.postgresql.Driver
+  basePackages:
+    - org.example.domain
+  dialect: org.hibernate.dialect.PostgreSQL95Dialect
+  additionalProperties:
+    hibernate:
+      ddl-auto: create-drop
